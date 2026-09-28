@@ -20,4 +20,4 @@ tasks.withType(JavaCompile) {
 
 test {
     useJUnitPlatform()
-}ghbdtn
+}
