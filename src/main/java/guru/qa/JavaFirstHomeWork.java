@@ -6,6 +6,7 @@ public class JavaFirstHomeWork {
         int b = 5;
         int d = 2;
         double c = 2.5;
+        double e = Double.MAX_VALUE;
 
         //применить несколько арифметических операций ( + , -, * , /) над двумя примитивами типа int
         System.out.println("Add: " + (a + b));
@@ -17,7 +18,6 @@ public class JavaFirstHomeWork {
         System.out.println("int and duble: " + ((a + b))/c);
 
         //применить несколько логических операций ( < , >, >=, <= )
-
         if (a % d == 0) {
             System.out.println("Число " + a + " четное");
         }
@@ -25,5 +25,14 @@ public class JavaFirstHomeWork {
         {
             System.out.println("Число " + a + " нечетное");
         }
+
+        //прочитать про диапазоны типов данных для вещественных / чисел с плавающей точкой (какие максимальные и минимальные значения есть, как их получить) и переполнение
+        System.out.println("Float Max: " + Float.MAX_VALUE);
+        System.out.println("Double Max: " + Double.MAX_VALUE);
+        System.out.println("Float Min: " + Float.MIN_VALUE);
+        System.out.println("Double Min: " + Double.MIN_VALUE);
+
+        //получить переполнение при арифметической операции
+        System.out.println("Overflow: " + e * 10);
     }
 }
