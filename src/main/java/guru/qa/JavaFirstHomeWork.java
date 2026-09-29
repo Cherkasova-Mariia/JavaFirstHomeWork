@@ -7,7 +7,6 @@ public class JavaFirstHomeWork {
         int d = 2;
         int age = 18;
         double c = 2.5;
-        double e = Double.MAX_VALUE;
 
         //применить несколько арифметических операций ( + , -, * , /) над двумя примитивами типа int
         System.out.println("Add: " + (a + b));
