@@ -5,6 +5,7 @@ public class JavaFirstHomeWork {
         int a = 10;
         int b = 5;
         int d = 2;
+        int age = 18;
         double c = 2.5;
         double e = Double.MAX_VALUE;
 
@@ -26,6 +27,15 @@ public class JavaFirstHomeWork {
             System.out.println("Число " + a + " нечетное");
         }
 
+        //применить несколько логических операций ( < , >, >=, <= ) второй вариант
+        if (age >= 18) {
+            System.out.println("Ты уже взрослый!");
+        }
+        else
+        {
+            System.out.println("Ты еще малыш");
+        }
+
         //прочитать про диапазоны типов данных для вещественных / чисел с плавающей точкой (какие максимальные и минимальные значения есть, как их получить) и переполнение
         System.out.println("Float Max: " + Float.MAX_VALUE);
         System.out.println("Double Max: " + Double.MAX_VALUE);
@@ -33,6 +43,6 @@ public class JavaFirstHomeWork {
         System.out.println("Double Min: " + Double.MIN_VALUE);
 
         //получить переполнение при арифметической операции
-        System.out.println("Overflow: " + e * 10);
+        System.out.println("Overflow: " + (Integer.MAX_VALUE + 1));
     }
 }
